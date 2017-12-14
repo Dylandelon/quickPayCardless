@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+    http://www.springframework.org/schema/beans/spring-beans.xsd   
+    http://www.springframework.org/schema/tx   
+    http://www.springframework.org/schema/tx/spring-tx.xsd  
+    http://www.springframework.org/schema/context  
+    http://www.springframework.org/schema/context/spring-context.xsd  
+    http://www.springframework.org/schema/mvc  
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/aop 
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+	<!-- 自动扫描的包名 -->
+	<!-- <context:component-scan base-package="com.txpay.webapp.action.**, com.txpay.service.**"></context:component-scan> -->
+	<!-- 自动扫描controller包下的所有类，如果@Controller注入为bean -->
+	<!-- <aop:aspectj-autoproxy /> -->
+	<context:component-scan use-default-filters="false"	base-package="cardlessQuickPay.**">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+		<context:include-filter type="annotation"
+			expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+	</context:component-scan>
+	<!-- 默认的注解映射的支持 -->
+	<mvc:annotation-driven>
+		
+	</mvc:annotation-driven>
+	<!-- <mvc:default-servlet-handler /> -->
+
+	
+
+	<!-- jsp页面解析器，当Controller返回XXX字符串时，先通过拦截器，然后该类就会在/WEB-INF/views/目录下，查找XXX.jsp文件 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+		<!-- 可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑 -->
+		<!-- <property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" /> -->
+	</bean>
+
+</beans>

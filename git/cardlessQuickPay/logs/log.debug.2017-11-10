@@ -1,0 +1,1040 @@
+2017-11-10 13:28:25-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 13:28:25-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: f68e68434346d96f8b9d0dbbef3afb1a44f8c1e126b3d16cef5a4a6ed7ef5f8b
+2017-11-10 13:28:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 13:28:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 13:28:26-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 13:28:26-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: d6e3b7c2a302a943002ca56308ea33b479dd450e25dfe7e1842afbfc69a85a7ed289a1c81bf944a6084e9d1607d79af66637d51fe5b1ebe27b2ea10e6c177483
+2017-11-10 13:28:26-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:1uO3wqMCqUMALKVjCOoztHndRQ4l3+fhhCr7/GmoWn7SiaHIG/lEpghOnRYH15r2ZjfVH+Wx6+J7
+LqEObBd0gw==
+
+2017-11-10 13:28:26- INFO cardlessQuickPay.CardlessQuickPayTest:146-testSm2SignWithSm3  sign:1uO3wqMCqUMALKVjCOoztHndRQ4l3+fhhCr7/GmoWn7SiaHIG/lEpghOnRYH15r2ZjfVH+Wx6+J7
+LqEObBd0gw==
+
+2017-11-10 13:33:07-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 13:33:08-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: ed35e126408675272a1c0d8ddf00548ed9f701516ca832668c50636ff48ffd48
+2017-11-10 13:33:08-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 13:33:08-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 13:33:08-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 13:33:08-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: f115d7505e81841cbbf5bbc3adf88cbf10f23c537c357c28839c17b01746a6c58fa811dec6ef07f2e3109332d2b91d629f451b842b9f94885b3f6739bd09fd2e
+2017-11-10 13:33:08-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:8RXXUF6BhBy79bvDrfiMvxDyPFN8NXwog5wXsBdGpsWPqBHexu8H8uMQkzLSuR1in0UbhCuflIhb
+P2c5vQn9Lg==
+
+2017-11-10 13:33:08- INFO cardlessQuickPay.CardlessQuickPayTest:146-testSm2SignWithSm3  sign:8RXXUF6BhBy79bvDrfiMvxDyPFN8NXwog5wXsBdGpsWPqBHexu8H8uMQkzLSuR1in0UbhCuflIhb
+P2c5vQn9Lg==
+
+2017-11-10 13:33:08- INFO cardlessQuickPay.CardlessQuickPayTest:163-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <MsgHeader>
+    <MsgVer>1000</MsgVer>
+    <Trxtyp>0001</Trxtyp>
+    <Drctn>11</Drctn>
+    <SndDt>2017-11-10T13:33:08.064</SndDt>
+    <IssrId>49360000</IssrId>
+    <SignEncAlgo>1</SignEncAlgo>
+    <SignSN>4000370700</SignSN>
+    <MDAlgo>1</MDAlgo>
+    <EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey>
+    <EncSN>4000370687</EncSN>
+    <EncAlgo>1</EncAlgo>
+  </MsgHeader>
+  <MsgBody/>
+</root>
+{S:8RXXUF6BhBy79bvDrfiMvxDyPFN8NXwog5wXsBdGpsWPqBHexu8H8uMQkzLSuR1in0UbhCuflIhb
+P2c5vQn9Lg==
+}
+2017-11-10 13:43:23-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 13:43:23- INFO cardlessQuickPay.CardlessQuickPayTest:113-testSm2SignWithSm3  document.asXML:<?xml version="1.0" encoding="UTF-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T13:43:23.416</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>
+2017-11-10 13:43:23-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: ecd669e1b210169634ca83a0057cbb1c26c13c7439aed6c379c919d8c8fc6847
+2017-11-10 13:43:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 13:43:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 13:43:23-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 13:43:23-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 7da30873dcca01aec7eef0cb35a1b05e8f69f0b8fca0402a127738c2ab5b78f19f4bac4651e61491cba94092c3ea922fee4dc6f25ebdd10afcebf05ab598ead6
+2017-11-10 13:43:23-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:faMIc9zKAa7H7vDLNaGwXo9p8Lj8oEAqEnc4wqtbePGfS6xGUeYUkcupQJLD6pIv7k3G8l690Qr8
+6/BatZjq1g==
+
+2017-11-10 13:43:23- INFO cardlessQuickPay.CardlessQuickPayTest:147-testSm2SignWithSm3  sign:faMIc9zKAa7H7vDLNaGwXo9p8Lj8oEAqEnc4wqtbePGfS6xGUeYUkcupQJLD6pIv7k3G8l690Qr8
+6/BatZjq1g==
+
+2017-11-10 13:43:23- INFO cardlessQuickPay.CardlessQuickPayTest:164-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <MsgHeader>
+    <MsgVer>1000</MsgVer>
+    <Trxtyp>0001</Trxtyp>
+    <Drctn>11</Drctn>
+    <SndDt>2017-11-10T13:43:23.416</SndDt>
+    <IssrId>49360000</IssrId>
+    <SignEncAlgo>1</SignEncAlgo>
+    <SignSN>4000370700</SignSN>
+    <MDAlgo>1</MDAlgo>
+    <EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey>
+    <EncSN>4000370687</EncSN>
+    <EncAlgo>1</EncAlgo>
+  </MsgHeader>
+  <MsgBody/>
+</root>
+{S:faMIc9zKAa7H7vDLNaGwXo9p8Lj8oEAqEnc4wqtbePGfS6xGUeYUkcupQJLD6pIv7k3G8l690Qr8
+6/BatZjq1g==
+}
+2017-11-10 13:56:26-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 13:56:26- INFO cardlessQuickPay.CardlessQuickPayTest:114-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T13:56:26.176</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>
+2017-11-10 13:56:26-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 1fa8360a1b7bb5ae25c7e39cd1aed3e6b13e69fa8cd8e2b600147235164594b8
+2017-11-10 13:56:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 13:56:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 13:56:26-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 13:56:26-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 17ffaf81ef55fc891f31808155f77fe6d1cde74cfa96173d77c58625285dd46632ef72b126922c7520905ac50f091499565b680059b60e960c01326772cd7e3c
+2017-11-10 13:56:26-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:F/+vge9V/IkfMYCBVfd/5tHN50z6lhc9d8WGJShd1GYy73KxJpIsdSCQWsUPCRSZVltoAFm2DpYM
+ATJncs1+PA==
+
+2017-11-10 13:56:26- INFO cardlessQuickPay.CardlessQuickPayTest:148-testSm2SignWithSm3  sign:F/+vge9V/IkfMYCBVfd/5tHN50z6lhc9d8WGJShd1GYy73KxJpIsdSCQWsUPCRSZVltoAFm2DpYM
+ATJncs1+PA==
+
+2017-11-10 13:56:26- INFO cardlessQuickPay.CardlessQuickPayTest:165-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root>  <MsgHeader>    <MsgVer>1000</MsgVer>    <Trxtyp>0001</Trxtyp>    <Drctn>11</Drctn>    <SndDt>2017-11-10T13:56:26.176</SndDt>    <IssrId>49360000</IssrId>    <SignEncAlgo>1</SignEncAlgo>    <SignSN>4000370700</SignSN>    <MDAlgo>1</MDAlgo>    <EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey>    <EncSN>4000370687</EncSN>    <EncAlgo>1</EncAlgo>  </MsgHeader>  <MsgBody/></root>{S:F/+vge9V/IkfMYCBVfd/5tHN50z6lhc9d8WGJShd1GYy73KxJpIsdSCQWsUPCRSZVltoAFm2DpYM
+ATJncs1+PA==
+}
+2017-11-10 13:58:54-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 13:58:54- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T13:58:54.555</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>
+2017-11-10 13:58:54-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 6fafba19f14703aa9cc786f0bcb36faa2cac67143ec77cc21d72ed99559e9aec
+2017-11-10 13:58:54-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 13:58:54-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 13:58:54-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 13:58:54-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 25712d86ace3af21f5e00797a52f4922997cf836db2255f0980a34db9cf745ccfaa844fab4c786b57442b30deea1222e935f2c3299597851fb967c27b18297b0
+2017-11-10 13:58:54-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:JXEthqzjryH14AeXpS9JIpl8+DbbIlXwmAo025z3Rcz6qET6tMeGtXRCsw3uoSIuk18sMplZeFH7
+lnwnsYKXsA==
+
+2017-11-10 13:58:54- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:JXEthqzjryH14AeXpS9JIpl8+DbbIlXwmAo025z3Rcz6qET6tMeGtXRCsw3uoSIuk18sMplZeFH7
+lnwnsYKXsA==
+
+2017-11-10 13:58:54- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T13:58:54.555</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>{S:JXEthqzjryH14AeXpS9JIpl8+DbbIlXwmAo025z3Rcz6qET6tMeGtXRCsw3uoSIuk18sMplZeFH7
+lnwnsYKXsA==
+}
+2017-11-10 14:15:34-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:15:34- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:15:34.242</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>
+2017-11-10 14:15:34-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 8682b258b59714f2003bb5a3a07755d1f540574b81e0f7b507f44d929ad2854c
+2017-11-10 14:15:34-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:15:34-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:15:34-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:15:34-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: a43366bed10d7147a59200e7f2273f0de5997c4ed1231c6278f912f4f4a40d617bda446cab7653de6d92462b4460844adf55ded3aebe142da494ce2b522a5d65
+2017-11-10 14:15:34-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:pDNmvtENcUelkgDn8ic/DeWZfE7RIxxiePkS9PSkDWF72kRsq3ZT3m2SRitEYIRK31Xe066+FC2k
+lM4rUipdZQ==
+
+2017-11-10 14:15:34- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:pDNmvtENcUelkgDn8ic/DeWZfE7RIxxiePkS9PSkDWF72kRsq3ZT3m2SRitEYIRK31Xe066+FC2k
+lM4rUipdZQ==
+
+2017-11-10 14:15:34- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:15:34.242</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader><MsgBody/></root>{S:pDNmvtENcUelkgDn8ic/DeWZfE7RIxxiePkS9PSkDWF72kRsq3ZT3m2SRitEYIRK31Xe066+FC2k
+lM4rUipdZQ==
+}
+2017-11-10 14:22:29-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:22:29- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:22:29.506</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:22:29-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: ca73b92a712f8d4ee4438a9e0c0bcd11001ecb9a5b4c7a01e09c5028a39e450b
+2017-11-10 14:22:29-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:22:29-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:22:29-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:22:29-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 8dd6a6ae4c856cc0becc521c7c6a40eefb9a47a41af39001300072565892656e80a13f07ae2cb18fd850d1f95d55ece7522acf85358f4193174c1afb486df60b
+2017-11-10 14:22:29-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:jdamrkyFbMC+zFIcfGpA7vuaR6Qa85ABMAByVliSZW6AoT8Hriyxj9hQ0fldVeznUirPhTWPQZMX
+TBr7SG32Cw==
+
+2017-11-10 14:22:29- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:jdamrkyFbMC+zFIcfGpA7vuaR6Qa85ABMAByVliSZW6AoT8Hriyxj9hQ0fldVeznUirPhTWPQZMX
+TBr7SG32Cw==
+
+2017-11-10 14:22:29- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:22:29.506</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:jdamrkyFbMC+zFIcfGpA7vuaR6Qa85ABMAByVliSZW6AoT8Hriyxj9hQ0fldVeznUirPhTWPQZMX
+TBr7SG32Cw==
+}
+2017-11-10 14:23:23-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:23:23- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:23:23.630</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:23:23-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 6d09e291d6ab22f2c14cffe0f05fb127f35d7b9251ddd87a290c4c94108a69b3
+2017-11-10 14:23:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:23:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:23:23-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:23:23-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 179efc4263dcd35fc75bfb0bfa00a4000e66c56e3667b33d59c2386d4052acc16989cb7d9769e334bcf9fa22a48e7d7539c65bb8532c3b7aa052855f2daf482f
+2017-11-10 14:23:23-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:F578QmPc01/HW/sL+gCkAA5mxW42Z7M9WcI4bUBSrMFpict9l2njNLz5+iKkjn11OcZbuFMsO3qg
+UoVfLa9ILw==
+
+2017-11-10 14:23:23- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:F578QmPc01/HW/sL+gCkAA5mxW42Z7M9WcI4bUBSrMFpict9l2njNLz5+iKkjn11OcZbuFMsO3qg
+UoVfLa9ILw==
+
+2017-11-10 14:23:23- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:23:23.630</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:F578QmPc01/HW/sL+gCkAA5mxW42Z7M9WcI4bUBSrMFpict9l2njNLz5+iKkjn11OcZbuFMsO3qg
+UoVfLa9ILw==
+}
+2017-11-10 14:49:09-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:49:09- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:49:09.975</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:49:09-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 157aeba5101a8e41974d00035c336e0bca405acbf2f984609dd833b09b25473f
+2017-11-10 14:49:10-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:49:10-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:49:10-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:49:10-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 23b8a90dbfd9cc0d327f03e21ef9dca9f5d24df040cf831a3c78d8988f587d19e70a8b6ab182e2fb776e804ef21049ecc6be8d1869411b5963bf51e436d0af8e
+2017-11-10 14:49:10-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:I7ipDb/ZzA0yfwPiHvncqfXSTfBAz4MaPHjYmI9YfRnnCotqsYLi+3dugE7yEEnsxr6NGGlBG1lj
+v1HkNtCvjg==
+
+2017-11-10 14:49:10- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:I7ipDb/ZzA0yfwPiHvncqfXSTfBAz4MaPHjYmI9YfRnnCotqsYLi+3dugE7yEEnsxr6NGGlBG1lj
+v1HkNtCvjg==
+
+2017-11-10 14:49:10- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:49:09.975</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:I7ipDb/ZzA0yfwPiHvncqfXSTfBAz4MaPHjYmI9YfRnnCotqsYLi+3dugE7yEEnsxr6NGGlBG1lj
+v1HkNtCvjg==
+}
+2017-11-10 14:50:03-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:50:03- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:50:03.391</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:50:03-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 628fbb9d786595e409c4c4c5a5b66d14a7cf64f9880ceedc7819512934b7773d
+2017-11-10 14:50:03-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:50:03-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:50:03-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:50:03-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 72a8abb690cf814a6e84b61fc07b423ef6111dd876bed14f371fc81f45bc87d6b8c0e3757ff387df56946f26a9c1ebc974188b38411729b33bffb0e2c11c0053
+2017-11-10 14:50:03-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:cqirtpDPgUpuhLYfwHtCPvYRHdh2vtFPNx/IH0W8h9a4wON1f/OH31aUbyapwevJdBiLOEEXKbM7
+/7DiwRwAUw==
+
+2017-11-10 14:50:03- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:cqirtpDPgUpuhLYfwHtCPvYRHdh2vtFPNx/IH0W8h9a4wON1f/OH31aUbyapwevJdBiLOEEXKbM7
+/7DiwRwAUw==
+
+2017-11-10 14:50:03- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:50:03.391</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:cqirtpDPgUpuhLYfwHtCPvYRHdh2vtFPNx/IH0W8h9a4wON1f/OH31aUbyapwevJdBiLOEEXKbM7
+/7DiwRwAUw==
+}
+2017-11-10 14:51:24-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:51:24- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:51:24.787</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:51:24-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 1eabaf20bb66d6d58218d17f504e84b17dda0d2824f990369ef4363d1c8c3645
+2017-11-10 14:51:25-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:51:25-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:51:25-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:51:25-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 43589c0d476871523c75ed4c61005e00ed9bcd8aea93a331eccd6e25739bdee79c79a82f6a697832ee6039fbf4c57f8dac5e5ac73c813134ac77925e76aec02b
+2017-11-10 14:51:25-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:Q1icDUdocVI8de1MYQBeAO2bzYrqk6Mx7M1uJXOb3ueceagvaml4Mu5gOfv0xX+NrF5axzyBMTSs
+d5Jedq7AKw==
+
+2017-11-10 14:51:25- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:Q1icDUdocVI8de1MYQBeAO2bzYrqk6Mx7M1uJXOb3ueceagvaml4Mu5gOfv0xX+NrF5axzyBMTSs
+d5Jedq7AKw==
+
+2017-11-10 14:51:25- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:51:24.787</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:Q1icDUdocVI8de1MYQBeAO2bzYrqk6Mx7M1uJXOb3ueceagvaml4Mu5gOfv0xX+NrF5axzyBMTSs
+d5Jedq7AKw==
+}
+2017-11-10 14:54:17-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:54:17- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:54:17.193</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:54:17-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 11bca72387994c328060aa22dac2c900a5dd81fbd790b67fe87fb004e14ba09a
+2017-11-10 14:54:17-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:54:17-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:54:17-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:54:17-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: b4aa94a7cd6ae0a289ba47ebda2641340070378323644b9f4762d8a73ce9f6c4514208ea41598e420f90a0a3a76d3dfd4f49bc0fb485d779c7d9723f6b044f32
+2017-11-10 14:54:17-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:tKqUp81q4KKJukfr2iZBNABwN4MjZEufR2LYpzzp9sRRQgjqQVmOQg+QoKOnbT39T0m8D7SF13nH
+2XI/awRPMg==
+
+2017-11-10 14:54:17- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:tKqUp81q4KKJukfr2iZBNABwN4MjZEufR2LYpzzp9sRRQgjqQVmOQg+QoKOnbT39T0m8D7SF13nH
+2XI/awRPMg==
+
+2017-11-10 14:54:17- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:54:17.193</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:tKqUp81q4KKJukfr2iZBNABwN4MjZEufR2LYpzzp9sRRQgjqQVmOQg+QoKOnbT39T0m8D7SF13nH
+2XI/awRPMg==
+}
+2017-11-10 14:55:53-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 14:55:54- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:55:54.070</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 14:55:54-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 363ed73816e7d79da90fca8c7e57f196f87d674c9c87f3c061208e5c7f1455ac
+2017-11-10 14:55:54-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 14:55:54-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 14:55:54-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 14:55:54-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 8800fd3d13abfe1656027e1083d85ccb071bc87f08f2b767219ff25335c4860a18beff94d718f941489f742e31c6986a679aec3b2e0f2d96fd958de547ed8b14
+2017-11-10 14:55:54-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:iAD9PROr/hZWAn4Qg9hcywcbyH8I8rdnIZ/yUzXEhgoYvv+U1xj5QUifdC4xxphqZ5rsOy4PLZb9
+lY3lR+2LFA==
+
+2017-11-10 14:55:54- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:iAD9PROr/hZWAn4Qg9hcywcbyH8I8rdnIZ/yUzXEhgoYvv+U1xj5QUifdC4xxphqZ5rsOy4PLZb9
+lY3lR+2LFA==
+
+2017-11-10 14:55:54- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T14:55:54.070</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:iAD9PROr/hZWAn4Qg9hcywcbyH8I8rdnIZ/yUzXEhgoYvv+U1xj5QUifdC4xxphqZ5rsOy4PLZb9
+lY3lR+2LFA==
+}
+2017-11-10 15:02:26-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:02:26- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:02:26.493</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:02:26-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: ef471cacf3935a381e5de37021f0c5e3d8854a8a4f2418ee2ba6028c834681ac
+2017-11-10 15:02:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:02:26-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:02:26-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:02:26-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 16e61ce7f486499e957ff9f31263eb51dec1dc75ce0e38e31c740ae880fafae2af5beccd1e4bc464e6d9db479c85f4c360e5b426b8aae30427520c2e5084a23a
+2017-11-10 15:02:26-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:FuYc5/SGSZ6Vf/nzEmPrUd7B3HXODjjjHHQK6ID6+uKvW+zNHkvEZObZ20echfTDYOW0Jriq4wQn
+UgwuUISiOg==
+
+2017-11-10 15:02:26- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:FuYc5/SGSZ6Vf/nzEmPrUd7B3HXODjjjHHQK6ID6+uKvW+zNHkvEZObZ20echfTDYOW0Jriq4wQn
+UgwuUISiOg==
+
+2017-11-10 15:02:26- INFO cardlessQuickPay.CardlessQuickPayTest:166-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:02:26.493</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:FuYc5/SGSZ6Vf/nzEmPrUd7B3HXODjjjHHQK6ID6+uKvW+zNHkvEZObZ20echfTDYOW0Jriq4wQn
+UgwuUISiOg==
+}
+2017-11-10 15:07:31-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:07:31- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:07:31.403</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:07:31-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 92c52440b17ff2d8fd2b1834bf513f43f2d38e3af469e47f598a3c29ddae4977
+2017-11-10 15:07:31-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:07:31-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:07:31-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:07:31-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: e1d6288414a392902735c551e38783c3ba5b3b76f3d9bc5f879105b3e637c3e52b6c70ed055c879d1f3bb7c3521a24c297bb0299b261fc8d44865b2591c73fee
+2017-11-10 15:07:31-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:4dYohBSjkpAnNcVR44eDw7pbO3bz2bxfh5EFs+Y3w+UrbHDtBVyHnR87t8NSGiTCl7sCmbJh/I1E
+hlslkcc/7g==
+
+2017-11-10 15:07:31- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:4dYohBSjkpAnNcVR44eDw7pbO3bz2bxfh5EFs+Y3w+UrbHDtBVyHnR87t8NSGiTCl7sCmbJh/I1E
+hlslkcc/7g==
+
+2017-11-10 15:07:31- INFO cardlessQuickPay.CardlessQuickPayTest:167-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:07:31.403</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:4dYohBSjkpAnNcVR44eDw7pbO3bz2bxfh5EFs+Y3w+UrbHDtBVyHnR87t8NSGiTCl7sCmbJh/I1E
+hlslkcc/7g==
+}
+2017-11-10 15:09:22-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:09:22- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:09:22.947</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:09:22-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 669f71245dcd21c95ca5e2cde11e5d23215d6229519295caaadee328dc501432
+2017-11-10 15:09:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:09:23-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:09:23-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:09:23-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 3aeafe45bd331583ed797455f57b61cac92b4b397bf7d978f92e6df5ec0ff8c5dd919bdd41e48a104a7dc4b6f813d3a809b1ecbba9b0b1656c1c19ef91de4ec7
+2017-11-10 15:09:23-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:Our+Rb0zFYPteXRV9XthyskrSzl799l4+S5t9ewP+MXdkZvdQeSKEEp9xLb4E9OoCbHsu6mwsWVs
+HBnvkd5Oxw==
+
+2017-11-10 15:09:23- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:Our+Rb0zFYPteXRV9XthyskrSzl799l4+S5t9ewP+MXdkZvdQeSKEEp9xLb4E9OoCbHsu6mwsWVs
+HBnvkd5Oxw==
+
+2017-11-10 15:09:23- INFO cardlessQuickPay.CardlessQuickPayTest:167-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:09:22.947</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:Our+Rb0zFYPteXRV9XthyskrSzl799l4+S5t9ewP+MXdkZvdQeSKEEp9xLb4E9OoCbHsu6mwsWVs
+HBnvkd5Oxw==
+}
+2017-11-10 15:10:04-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:10:05- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:10:05.107</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:10:05-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 82b3eb5c8772138a83c2af0f2e756088435b4923ad0f2ba2e24eecc02f7d79d2
+2017-11-10 15:10:05-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:10:05-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:10:05-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:10:05-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: ae64aa8e692d5a8b765691de3095c1766df986499a6d7441bdb52c2c0e53847941c19f0e09bb4cc0e965f09cdb3412c15af69b4414be5a645f99b7f6f1eed7bf
+2017-11-10 15:10:05-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:rmSqjmktWot2VpHeMJXBdm35hkmabXRBvbUsLA5ThHlBwZ8OCbtMwOll8JzbNBLBWvabRBS+WmRf
+mbf28e7Xvw==
+
+2017-11-10 15:10:05- INFO cardlessQuickPay.CardlessQuickPayTest:149-testSm2SignWithSm3  sign:rmSqjmktWot2VpHeMJXBdm35hkmabXRBvbUsLA5ThHlBwZ8OCbtMwOll8JzbNBLBWvabRBS+WmRf
+mbf28e7Xvw==
+
+2017-11-10 15:10:05- INFO cardlessQuickPay.CardlessQuickPayTest:165-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:10:05.107</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>{S:rmSqjmktWot2VpHeMJXBdm35hkmabXRBvbUsLA5ThHlBwZ8OCbtMwOll8JzbNBLBWvabRBS+WmRf
+mbf28e7Xvw==
+}
+2017-11-10 15:12:15-DEBUG com.cup.security.cupsec.CupSecTest2:562-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:12:15-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 322c722c393c7cc01f32ae346e5d37ee67d1f74988a3f384751d25e7369998a6
+2017-11-10 15:12:15-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:12:15-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:12:15-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:12:15-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: f2926491b13dbc257f3c397ff731f5f46eb749d5130c56fea63209cce1947d3efdfa3b0a7828f7d3acfdd92c2af1d7e1f16276d0ee88fcb40712e699d6077bae
+2017-11-10 15:12:15-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:8pJkkbE9vCV/PDl/9zH19G63SdUTDFb+pjIJzOGUfT79+jsKeCj306z92Swq8dfh8WJ20O6I/LQH
+EuaZ1gd7rg==
+
+2017-11-10 15:12:15- INFO com.cup.security.cupsec.CupSecTest2:596-testSm2SignWithSm3  sign:8pJkkbE9vCV/PDl/9zH19G63SdUTDFb+pjIJzOGUfT79+jsKeCj306z92Swq8dfh8WJ20O6I/LQH
+EuaZ1gd7rg==
+
+2017-11-10 15:14:43-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:14:43- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:14:43.301</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:14:43-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: 9d443b8f75eacea0e001714984614b7868a9c427a3380380c325dd5c80f6d104
+2017-11-10 15:14:43-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:14:43-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:14:43-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:14:43-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 8049ad3eb648f73f321dee7f4b0e883378174d578491a16539ff4b4a22efb3651ad603edc0f4527bb98777c72dec172e44f4369d49df49d15d351073d7bcf9f1
+2017-11-10 15:14:43-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:gEmtPrZI9z8yHe5/Sw6IM3gXTVeEkaFlOf9LSiLvs2Ua1gPtwPRSe7mHd8ct7BcuRPQ2nUnfSdFd
+NRBz17z58Q==
+
+2017-11-10 15:14:43- INFO cardlessQuickPay.CardlessQuickPayTest:147-testSm2SignWithSm3  sign:gEmtPrZI9z8yHe5/Sw6IM3gXTVeEkaFlOf9LSiLvs2Ua1gPtwPRSe7mHd8ct7BcuRPQ2nUnfSdFd
+NRBz17z58Q==
+
+2017-11-10 15:14:43- INFO cardlessQuickPay.CardlessQuickPayTest:167-testSm2SignWithSm3  xmlsum:<root><MsgHeader><MsgVer>1000</MsgVer><SndDt>2017-02-16T14:00:00</SndDt><Trxtyp>0001</Trxtyp><IssrId>00040004</IssrId><Drctn>11</Drctn><EncSN>11111111111</EncSN><EncKey>bsXn+G//Zxghw8sZDmQ9iHCJW0gxKpYMkMUaG/USL0yK+4LwbpKIjmZQF1E40zyeSub2rK5TyysyXj6nsNgWbPDb6ILP98nPoc0fzjKv8HUkKm8X7Fur9jCVELqYI4mU9BsfMvJ1nfZ+FIDlk6GDHXUT+jiaIdFzflT+P3H2x0saiUQwrVNhhgxLfXnbwZp4kNoAJ/M9yOCf7bI7JU8blRymt56vWeudFIqyvozZKTZtnQj8EbX7OKgC4gNItaoaRD/93AhR4MLk3mp1L6ZSHy8dt6lnXcILeVv+MK9Id3lh1wu7ipYn+Fe0xkunChiScdGEE1GjFO14NXvc3MP5ug==</EncKey><SignSN>11111111111</SignSN><MDAlgo>0</MDAlgo><SignEncAlgo>0</SignEncAlgo><EncAlgo>0</EncAlgo></MsgHeader><MsgBody><BizTp>100001</BizTp><TrxInf><TrxId>0216180040179177</TrxId><TrxDtTm>2017-02-16T14:00:00</TrxDtTm></TrxInf><RcverInf><RcverAcctIssrId>99999999</RcverAcctIssrId><RcverAcctId>6260000000000000</RcverAcctId><RcverNm>fuxuan</RcverNm><IDTp>01</IDTp><IDNo>00000000000000111111</IDNo><MobNo>13012345678</MobNo></RcverInf><SderInf><SderAcctIssrId>00080008</SderAcctIssrId><SderIssrId>00040004</SderIssrId></SderInf><SensInf><ExpDt>a022</ExpDt><CvnNo></CvnNo></SensInf><CorpCard><CorpName>wangwang</CorpName><USCCode>01111111</USCCode></CorpCard><ProductInf><ProductTp>00000000</ProductTp><ProductAssInformation>haahah</ProductAssInformation></ProductInf><RskInf><deviceMode>1111</deviceMode><deviceLanguage>001</deviceLanguage><sourceIP>172.17.254.243</sourceIP><MAC>00247e0a6c2e00247e0a6c2e00247e0a6c2e00247e0a6c2e</MAC><devId>1235455855903434939</devId><extensiveDeviceLocation>11111111</extensiveDeviceLocation><deviceNumber>1380000000</deviceNumber><deviceSIMNumber>a</deviceSIMNumber><accountIDHash>1a0e0c0246809fe5c2</accountIDHash><riskScore>1a</riskScore><riskReasonCode>0069</riskReasonCode><mchntUsrRgstrTm>2017s216140004</mchntUsrRgstrTm><mchntUsrRgstrEmail>www.unionpay.com</mchntUsrRgstrEmail><rcvProvince>003</rcvProvince><rcvCity>1200</rcvCity><goodsClass>01</goodsClass></RskInf><test>hello world</test></MsgBody></root>{S:8pJkkbE9vCV/PDl/9zH19G63SdUTDFb+pjIJzOGUfT79+jsKeCj306z92Swq8dfh8WJ20O6I/LQHEuaZ1gd7rg==}
+2017-11-10 15:15:18-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:15:18- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:15:18.727</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:15:18-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: a5007aceaeea6c44aa5f69863907a80b9309729486a5503eef401481a337ed67
+2017-11-10 15:15:19-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:15:19-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:15:19-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:15:19-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 50552e7f786f20489105d012852b6fd6cdcb7b5fb598c1f3cba8010a27ee2def63f2db22742a12bc2684889cec8d5229f08ed76bedcb4289d7b882466344d755
+2017-11-10 15:15:19-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:UFUuf3hvIEiRBdAShStv1s3Le1+1mMHzy6gBCifuLe9j8tsidCoSvCaEiJzsjVIp8I7Xa+3LQonX
+uIJGY0TXVQ==
+
+2017-11-10 15:15:19- INFO cardlessQuickPay.CardlessQuickPayTest:147-testSm2SignWithSm3  sign:UFUuf3hvIEiRBdAShStv1s3Le1+1mMHzy6gBCifuLe9j8tsidCoSvCaEiJzsjVIp8I7Xa+3LQonX
+uIJGY0TXVQ==
+
+2017-11-10 15:15:19- INFO cardlessQuickPay.CardlessQuickPayTest:167-testSm2SignWithSm3  xmlsum:<root><MsgHeader><MsgVer>1000</MsgVer><SndDt>2017-02-16T14:00:00</SndDt><Trxtyp>0001</Trxtyp><IssrId>00040004</IssrId><Drctn>11</Drctn><EncSN>11111111111</EncSN><EncKey>bsXn+G//Zxghw8sZDmQ9iHCJW0gxKpYMkMUaG/USL0yK+4LwbpKIjmZQF1E40zyeSub2rK5TyysyXj6nsNgWbPDb6ILP98nPoc0fzjKv8HUkKm8X7Fur9jCVELqYI4mU9BsfMvJ1nfZ+FIDlk6GDHXUT+jiaIdFzflT+P3H2x0saiUQwrVNhhgxLfXnbwZp4kNoAJ/M9yOCf7bI7JU8blRymt56vWeudFIqyvozZKTZtnQj8EbX7OKgC4gNItaoaRD/93AhR4MLk3mp1L6ZSHy8dt6lnXcILeVv+MK9Id3lh1wu7ipYn+Fe0xkunChiScdGEE1GjFO14NXvc3MP5ug==</EncKey><SignSN>11111111111</SignSN><MDAlgo>0</MDAlgo><SignEncAlgo>0</SignEncAlgo><EncAlgo>0</EncAlgo></MsgHeader><MsgBody><BizTp>100001</BizTp><TrxInf><TrxId>0216180040179177</TrxId><TrxDtTm>2017-02-16T14:00:00</TrxDtTm></TrxInf><RcverInf><RcverAcctIssrId>99999999</RcverAcctIssrId><RcverAcctId>6260000000000000</RcverAcctId><RcverNm>fuxuan</RcverNm><IDTp>01</IDTp><IDNo>00000000000000111111</IDNo><MobNo>13012345678</MobNo></RcverInf><SderInf><SderAcctIssrId>00080008</SderAcctIssrId><SderIssrId>00040004</SderIssrId></SderInf><SensInf><ExpDt>a022</ExpDt><CvnNo></CvnNo></SensInf><CorpCard><CorpName>wangwang</CorpName><USCCode>01111111</USCCode></CorpCard><ProductInf><ProductTp>00000000</ProductTp><ProductAssInformation>haahah</ProductAssInformation></ProductInf><RskInf><deviceMode>1111</deviceMode><deviceLanguage>001</deviceLanguage><sourceIP>172.17.254.243</sourceIP><MAC>00247e0a6c2e00247e0a6c2e00247e0a6c2e00247e0a6c2e</MAC><devId>1235455855903434939</devId><extensiveDeviceLocation>11111111</extensiveDeviceLocation><deviceNumber>1380000000</deviceNumber><deviceSIMNumber>a</deviceSIMNumber><accountIDHash>1a0e0c0246809fe5c2</accountIDHash><riskScore>1a</riskScore><riskReasonCode>0069</riskReasonCode><mchntUsrRgstrTm>2017s216140004</mchntUsrRgstrTm><mchntUsrRgstrEmail>www.unionpay.com</mchntUsrRgstrEmail><rcvProvince>003</rcvProvince><rcvCity>1200</rcvCity><goodsClass>01</goodsClass></RskInf><test>hello world</test></MsgBody></root>{S:8pJkkbE9vCV/PDl/9zH19G63SdUTDFb+pjIJzOGUfT79+jsKeCj306z92Swq8dfh8WJ20O6I/LQHEuaZ1gd7rg==}
+2017-11-10 15:42:09-DEBUG cardlessQuickPay.CardlessQuickPayTest:32-testSm2SignWithSm3  private key:9db5db4c74141ab033132c1eb11ed6a5c77c0f7652df0715a6735d606a61fce5
+2017-11-10 15:42:09- INFO cardlessQuickPay.CardlessQuickPayTest:115-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:42:09.615</SndDt><IssrId>49360000</IssrId><SignEncAlgo>1</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>1</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>1</EncAlgo></MsgHeader></root>
+2017-11-10 15:42:09-DEBUG com.cup.security.cupsec.CupSec:230-sm2SignWithSm3  digest: ac062af66b881ece9489b00a5abca9a5e08ea54b8fc846ffc0e88b122b98fd74
+2017-11-10 15:42:09-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[0]'s length:32
+2017-11-10 15:42:09-DEBUG com.cup.security.sm2.Sm2Engine:257-combineByteArray  args[1]'s length:32
+2017-11-10 15:42:09-DEBUG com.cup.security.sm2.Sm2Engine:270-combineByteArray  combine length:64
+2017-11-10 15:42:09-DEBUG com.cup.security.cupsec.CupSec:233-sm2SignWithSm3  sign: 268bf306fae81c39bd2ac7377c5de5c3ce14457d5b2b357fbccc877942289bcc2ea0a679a8b67f979ac97634e902736f598e1b06a728eb3f8d5c3e9880c574d0
+2017-11-10 15:42:09-DEBUG com.cup.security.cupsec.CupSec:236-sm2SignWithSm3  base64:JovzBvroHDm9Ksc3fF3lw84URX1bKzV/vMyHeUIom8wuoKZ5qLZ/l5rJdjTpAnNvWY4bBqco6z+N
+XD6YgMV00A==
+
+2017-11-10 15:42:09- INFO cardlessQuickPay.CardlessQuickPayTest:147-testSm2SignWithSm3  sign:JovzBvroHDm9Ksc3fF3lw84URX1bKzV/vMyHeUIom8wuoKZ5qLZ/l5rJdjTpAnNvWY4bBqco6z+N
+XD6YgMV00A==
+
+2017-11-10 15:42:09- INFO cardlessQuickPay.CardlessQuickPayTest:167-testSm2SignWithSm3  xmlsum:<root><MsgHeader><MsgVer>1000</MsgVer><SndDt>2017-02-16T14:00:00</SndDt><Trxtyp>0001</Trxtyp><IssrId>00040004</IssrId><Drctn>11</Drctn><EncSN>11111111111</EncSN><EncKey>bsXn+G//Zxghw8sZDmQ9iHCJW0gxKpYMkMUaG/USL0yK+4LwbpKIjmZQF1E40zyeSub2rK5TyysyXj6nsNgWbPDb6ILP98nPoc0fzjKv8HUkKm8X7Fur9jCVELqYI4mU9BsfMvJ1nfZ+FIDlk6GDHXUT+jiaIdFzflT+P3H2x0saiUQwrVNhhgxLfXnbwZp4kNoAJ/M9yOCf7bI7JU8blRymt56vWeudFIqyvozZKTZtnQj8EbX7OKgC4gNItaoaRD/93AhR4MLk3mp1L6ZSHy8dt6lnXcILeVv+MK9Id3lh1wu7ipYn+Fe0xkunChiScdGEE1GjFO14NXvc3MP5ug==</EncKey><SignSN>11111111111</SignSN><MDAlgo>0</MDAlgo><SignEncAlgo>0</SignEncAlgo><EncAlgo>0</EncAlgo></MsgHeader><MsgBody><BizTp>100001</BizTp><TrxInf><TrxId>0216180040179177</TrxId><TrxDtTm>2017-02-16T14:00:00</TrxDtTm></TrxInf><RcverInf><RcverAcctIssrId>99999999</RcverAcctIssrId><RcverAcctId>6260000000000000</RcverAcctId><RcverNm>fuxuan</RcverNm><IDTp>01</IDTp><IDNo>00000000000000111111</IDNo><MobNo>13012345678</MobNo></RcverInf><SderInf><SderAcctIssrId>00080008</SderAcctIssrId><SderIssrId>00040004</SderIssrId></SderInf><SensInf><ExpDt>a022</ExpDt><CvnNo></CvnNo></SensInf><CorpCard><CorpName>wangwang</CorpName><USCCode>01111111</USCCode></CorpCard><ProductInf><ProductTp>00000000</ProductTp><ProductAssInformation>haahah</ProductAssInformation></ProductInf><RskInf><deviceMode>1111</deviceMode><deviceLanguage>001</deviceLanguage><sourceIP>172.17.254.243</sourceIP><MAC>00247e0a6c2e00247e0a6c2e00247e0a6c2e00247e0a6c2e</MAC><devId>1235455855903434939</devId><extensiveDeviceLocation>11111111</extensiveDeviceLocation><deviceNumber>1380000000</deviceNumber><deviceSIMNumber>a</deviceSIMNumber><accountIDHash>1a0e0c0246809fe5c2</accountIDHash><riskScore>1a</riskScore><riskReasonCode>0069</riskReasonCode><mchntUsrRgstrTm>2017s216140004</mchntUsrRgstrTm><mchntUsrRgstrEmail>www.unionpay.com</mchntUsrRgstrEmail><rcvProvince>003</rcvProvince><rcvCity>1200</rcvCity><goodsClass>01</goodsClass></RskInf><test>hello world</test></MsgBody></root>{S:8pJkkbE9vCV/PDl/9zH19G63SdUTDFb+pjIJzOGUfT79+jsKeCj306z92Swq8dfh8WJ20O6I/LQHEuaZ1gd7rg==}
+2017-11-10 15:48:23-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 15:48:23- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:48:23.603</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 15:48:23-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: fe9e6d61ca6a75f7863145c4d2664666f74befcbeadc20b77317650ee0bbd233
+2017-11-10 15:48:23-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 4c53501ec8b0c15d16d18214378f4c78c6fbba0c9362bac1777c724ddc2acf6bf1994b9ad5b3cbc9d840c085457db126f8aa01eef48e393ac4e2811750be0211a86b99030ed5a38bbaacc43bbce1a6260e0a6c0c5bf923146851a8661d708e59ccf9a03c2d7898a84f36c3498598b59b21124d70b59911074d919117f01e7f47
+2017-11-10 15:48:23-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:TFNQHsiwwV0W0YIUN49MeMb7ugyTYrrBd3xyTdwqz2vxmUua1bPLydhAwIVFfbEm+KoB7vSOOTrE
+4oEXUL4CEahrmQMO1aOLuqzEO7zhpiYOCmwMW/kjFGhRqGYdcI5ZzPmgPC14mKhPNsNJhZi1myES
+TXC1mREHTZGRF/Aef0c=
+
+2017-11-10 15:48:23- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:TFNQHsiwwV0W0YIUN49MeMb7ugyTYrrBd3xyTdwqz2vxmUua1bPLydhAwIVFfbEm+KoB7vSOOTrE
+4oEXUL4CEahrmQMO1aOLuqzEO7zhpiYOCmwMW/kjFGhRqGYdcI5ZzPmgPC14mKhPNsNJhZi1myES
+TXC1mREHTZGRF/Aef0c=
+
+2017-11-10 15:48:23- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:48:23.603</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:TFNQHsiwwV0W0YIUN49MeMb7ugyTYrrBd3xyTdwqz2vxmUua1bPLydhAwIVFfbEm+KoB7vSOOTrE
+4oEXUL4CEahrmQMO1aOLuqzEO7zhpiYOCmwMW/kjFGhRqGYdcI5ZzPmgPC14mKhPNsNJhZi1myES
+TXC1mREHTZGRF/Aef0c=
+}
+2017-11-10 15:59:14-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 15:59:14- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:59:14.678</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 15:59:14-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: 6f35fdd0151211961f61537773110dc479a4c8da571a66aa02fe4edcab308f92
+2017-11-10 15:59:14-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 29a32910df9012399f6e05381d1424cfb6fe209b626175db668f47b70e08800e6a5567df019d8967995d66355b0f1acd90e97553cef54a9ff7a5800ed0bbf4bd823ca436dc68e40a1dec7e7c1942666f39883c0d4617780c05919c6662cb4097b9ca5d55edd14fb0db33973827aeb39b6110ecfcd6ca4c893df5ac83fff695fb
+2017-11-10 15:59:14-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:KaMpEN+QEjmfbgU4HRQkz7b+IJtiYXXbZo9Htw4IgA5qVWffAZ2JZ5ldZjVbDxrNkOl1U871Sp/3
+pYAO0Lv0vYI8pDbcaOQKHex+fBlCZm85iDwNRhd4DAWRnGZiy0CXucpdVe3RT7DbM5c4J66zm2EQ
+7PzWykyJPfWsg//2lfs=
+
+2017-11-10 15:59:14- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:KaMpEN+QEjmfbgU4HRQkz7b+IJtiYXXbZo9Htw4IgA5qVWffAZ2JZ5ldZjVbDxrNkOl1U871Sp/3
+pYAO0Lv0vYI8pDbcaOQKHex+fBlCZm85iDwNRhd4DAWRnGZiy0CXucpdVe3RT7DbM5c4J66zm2EQ
+7PzWykyJPfWsg//2lfs=
+
+2017-11-10 15:59:14- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T15:59:14.678</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:KaMpEN+QEjmfbgU4HRQkz7b+IJtiYXXbZo9Htw4IgA5qVWffAZ2JZ5ldZjVbDxrNkOl1U871Sp/3
+pYAO0Lv0vYI8pDbcaOQKHex+fBlCZm85iDwNRhd4DAWRnGZiy0CXucpdVe3RT7DbM5c4J66zm2EQ
+7PzWykyJPfWsg//2lfs=
+}
+2017-11-10 16:03:53-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 16:03:53- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:03:53.927</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 16:03:53-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: 60e1d27bca1bcf6bc9fb83ec916c4117e301d8e9c7a06d5f4fe3011d7dabe414
+2017-11-10 16:03:53-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 0249729dccb82ad1ad8d094898135de11311d7d97079724a399c0b57769a0ede853357b124efbf11d533749316f29d51998a50c84a22353a46863c2eb8b8a89317e2f1af701c06055541b4b23062a8ab5176b7577079ab8cf700e7709332d4a32c7138d9b7632d18b21bcf6ee948ff229394b191a8004c1fe6f3987ea295a4fb
+2017-11-10 16:03:53-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:Aklyncy4KtGtjQlImBNd4RMR19lweXJKOZwLV3aaDt6FM1exJO+/EdUzdJMW8p1RmYpQyEoiNTpG
+hjwuuLiokxfi8a9wHAYFVUG0sjBiqKtRdrdXcHmrjPcA53CTMtSjLHE42bdjLRiyG89u6Uj/IpOU
+sZGoAEwf5vOYfqKVpPs=
+
+2017-11-10 16:03:53- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:Aklyncy4KtGtjQlImBNd4RMR19lweXJKOZwLV3aaDt6FM1exJO+/EdUzdJMW8p1RmYpQyEoiNTpG
+hjwuuLiokxfi8a9wHAYFVUG0sjBiqKtRdrdXcHmrjPcA53CTMtSjLHE42bdjLRiyG89u6Uj/IpOU
+sZGoAEwf5vOYfqKVpPs=
+
+2017-11-10 16:03:53- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:03:53.927</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:Aklyncy4KtGtjQlImBNd4RMR19lweXJKOZwLV3aaDt6FM1exJO+/EdUzdJMW8p1RmYpQyEoiNTpG
+hjwuuLiokxfi8a9wHAYFVUG0sjBiqKtRdrdXcHmrjPcA53CTMtSjLHE42bdjLRiyG89u6Uj/IpOU
+sZGoAEwf5vOYfqKVpPs=
+}
+2017-11-10 16:06:50-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 16:06:50- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:06:50.855</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 16:06:50-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: bdd6bd62f2b86cb8afc0700d8a54e435ca86e42fadaed1e8ab3a84848733eed1
+2017-11-10 16:06:50-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 3ce18790bc31febefce2794fcbe4801748f6c2de4241b18852f2ab11f6092a3a6db814b29a47f06fcc2589c4372e26b4318ce940e0a8312d6a9bae0dddb54c09882c0300d85481726c393ff41297a3d8dcaff0a4f48644ccbecb9652fff1416ea5cab2bb6cf3b673481150a2724d5bc438e542f1790c0867ed93361393f63b84
+2017-11-10 16:06:50-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:POGHkLwx/r784nlPy+SAF0j2wt5CQbGIUvKrEfYJKjptuBSymkfwb8wlicQ3Lia0MYzpQOCoMS1q
+m64N3bVMCYgsAwDYVIFybDk/9BKXo9jcr/Ck9IZEzL7LllL/8UFupcqyu2zztnNIEVCick1bxDjl
+QvF5DAhn7ZM2E5P2O4Q=
+
+2017-11-10 16:06:50- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:POGHkLwx/r784nlPy+SAF0j2wt5CQbGIUvKrEfYJKjptuBSymkfwb8wlicQ3Lia0MYzpQOCoMS1q
+m64N3bVMCYgsAwDYVIFybDk/9BKXo9jcr/Ck9IZEzL7LllL/8UFupcqyu2zztnNIEVCick1bxDjl
+QvF5DAhn7ZM2E5P2O4Q=
+
+2017-11-10 16:06:50- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:06:50.855</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:POGHkLwx/r784nlPy+SAF0j2wt5CQbGIUvKrEfYJKjptuBSymkfwb8wlicQ3Lia0MYzpQOCoMS1q
+m64N3bVMCYgsAwDYVIFybDk/9BKXo9jcr/Ck9IZEzL7LllL/8UFupcqyu2zztnNIEVCick1bxDjl
+QvF5DAhn7ZM2E5P2O4Q=
+}
+2017-11-10 16:08:26-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 16:08:26- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:08:26.281</SndDt><TrxAmt></TrxAmt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 16:08:26-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: bf22f725361788765a76f3c99a3241e72bc000adfa018e12c3460f48d8aaba35
+2017-11-10 16:08:26-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 5440177fec3ff98e42751b8080897b7ac45819e04b14adbd5e0cd35725ebdb9d685bd14c98cf5f438caf0ba48a8b431541ed168675196a54d548843d9d7a881cabeb9d207e2808c697f5ab81f4758cd7ca417ec56fb7b7f2e8f6945a2e65aa824eaa9411e9c567550ba4fde5f308d3d8291d0c3e99e80d04acfeed8c80cc9de2
+2017-11-10 16:08:26-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:VEAXf+w/+Y5CdRuAgIl7esRYGeBLFK29XgzTVyXr251oW9FMmM9fQ4yvC6SKi0MVQe0WhnUZalTV
+SIQ9nXqIHKvrnSB+KAjGl/WrgfR1jNfKQX7Fb7e38uj2lFouZaqCTqqUEenFZ1ULpP3l8wjT2Ckd
+DD6Z6A0ErP7tjIDMneI=
+
+2017-11-10 16:08:26- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:VEAXf+w/+Y5CdRuAgIl7esRYGeBLFK29XgzTVyXr251oW9FMmM9fQ4yvC6SKi0MVQe0WhnUZalTV
+SIQ9nXqIHKvrnSB+KAjGl/WrgfR1jNfKQX7Fb7e38uj2lFouZaqCTqqUEenFZ1ULpP3l8wjT2Ckd
+DD6Z6A0ErP7tjIDMneI=
+
+2017-11-10 16:08:26- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:08:26.281</SndDt><TrxAmt></TrxAmt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:VEAXf+w/+Y5CdRuAgIl7esRYGeBLFK29XgzTVyXr251oW9FMmM9fQ4yvC6SKi0MVQe0WhnUZalTV
+SIQ9nXqIHKvrnSB+KAjGl/WrgfR1jNfKQX7Fb7e38uj2lFouZaqCTqqUEenFZ1ULpP3l8wjT2Ckd
+DD6Z6A0ErP7tjIDMneI=
+}
+2017-11-10 16:11:34-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 30820276020100300d06092a864886f70d0101010500048202603082025c0201000281810093d5a7ae0fa32aff1648de9ecab9b61b965de27c286547d38f94b92eef49bcdce0e73331ff3bd0a878c63c203f07c0732987714030e7cca99e273ca4b2fb77cf8e669add848f360bb96b945ea9cbd09b8a102a355e406760a5ee3b66c48cd4810e17a932a0a7c359fd1916d00052812f1ee5914be338b04e56be5252f18b15bd020301000102818078f1a26cd47e38fed7cc65d4a325abc6860de8ec8a5fd1935333e90c6cd7769b7da3a84e8ef0f093e3baca15d77b1007274297745c8e46f1bd617c4b81e218f186a537449dc2d0319c2560ada2fdd7a63e0dba9435b010020ce739faa80ccf90baf54e4a8806f8111fc9581076bf7f0d454199caa09876a607afccee58cff841024100c8da27f797cd86e8db95524f7c6f2c2c5448b49a07c0875d7cdcd27e6af2a97bf7dc4668d3e42be809356d1f13d786604b98060e68ef428c5e34260370b2f33b024100bc6ce858cc8f0b3f612073ee4f4d8aab7565b576be4cd0e0433a2c030090f6da8f985087d7391638eca87edceed94ccb98a308da09bdf91c0c737631876c1b67024077b8518a6b99be889e1a6b6da5a63e964dc6e89fc76f2340be6481b388dc0bda30ebc3ac4861012ad6125a70e3cadbf61a190bc31b19427998cd4cbb5039da710240638d9f0d1bb710184276e509aa38abe57f3767b2ff4492af8a95779f76732119c4f892c3d2c0c4aefacae38c535dd82751d401df417a6fdd93ee852a1204da4d024100889d800b90df6988340803fe3472a50baa5ed0b20910d9c53e457d26a57d3f727fcd7cc1180be1eefca6b7f05500bf12a390d43de364a5268bcc63dba6268904
+2017-11-10 16:11:34- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:11:34.145</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 16:11:34-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: f2dde1c8ff62a0882c677eca91eef864f6e624a84a73a8b49bfab698a532b051
+2017-11-10 16:11:34-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 5ffaf049527421ce295e28e80bb412a489827c2cb50078d95cd4b789a42b51cc152b881708d62f94309edc4a35404dde09c48a98b4182be8d3cbf0a8f432c3233c9ed8477b11edc57c6ddacc5ddcc5763a7d72bdfd17061046ddebf259174a88a8f760e2fbd77f4b9d522eb453aee644562f13c69f8c97ca8afd81e903cd826c
+2017-11-10 16:11:34-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:X/rwSVJ0Ic4pXijoC7QSpImCfCy1AHjZXNS3iaQrUcwVK4gXCNYvlDCe3Eo1QE3eCcSKmLQYK+jT
+y/Co9DLDIzye2Ed7Ee3FfG3azF3cxXY6fXK9/RcGEEbd6/JZF0qIqPdg4vvXf0udUi60U67mRFYv
+E8afjJfKiv2B6QPNgmw=
+
+2017-11-10 16:11:34- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:X/rwSVJ0Ic4pXijoC7QSpImCfCy1AHjZXNS3iaQrUcwVK4gXCNYvlDCe3Eo1QE3eCcSKmLQYK+jT
+y/Co9DLDIzye2Ed7Ee3FfG3azF3cxXY6fXK9/RcGEEbd6/JZF0qIqPdg4vvXf0udUi60U67mRFYv
+E8afjJfKiv2B6QPNgmw=
+
+2017-11-10 16:11:34- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T16:11:34.145</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:X/rwSVJ0Ic4pXijoC7QSpImCfCy1AHjZXNS3iaQrUcwVK4gXCNYvlDCe3Eo1QE3eCcSKmLQYK+jT
+y/Co9DLDIzye2Ed7Ee3FfG3azF3cxXY6fXK9/RcGEEbd6/JZF0qIqPdg4vvXf0udUi60U67mRFYv
+E8afjJfKiv2B6QPNgmw=
+}
+2017-11-10 16:13:08-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:13:08-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:23:59-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:23:59-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:26:39-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:26:39-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:30:07-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: exception unwrapping private key - java.security.InvalidKeyException: Illegal key size
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.unwrapKey(Unknown Source)
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:30:07-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:38:04-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: exception unwrapping private key - java.security.InvalidKeyException: Illegal key size
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.unwrapKey(Unknown Source)
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:38:04-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:39:05-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: exception unwrapping private key - java.security.InvalidKeyException: Illegal key size
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.unwrapKey(Unknown Source)
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:39:05-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:39:29-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: exception unwrapping private key - java.security.InvalidKeyException: Illegal key size
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.unwrapKey(Unknown Source)
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:39:29-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:50:27-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.IOException: exception unwrapping private key - java.security.InvalidKeyException: Illegal key size
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.unwrapKey(Unknown Source)
+	at org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi.engineLoad(Unknown Source)
+	at java.security.KeyStore.load(KeyStore.java:1445)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:68)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 16:50:27-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 17:02:11-ERROR com.cup.security.certification.RsaCertUtils:75-getKeyStore  Fail: load privateKey certificate
+java.io.FileNotFoundException: E:\stssaaswork\fistjob\demo\cardlessQuickPay\target\test-classes\jg-4000370693.pfx (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cup.security.certification.RsaCertUtils.getKeyStore(RsaCertUtils.java:65)
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:92)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 17:02:11-ERROR com.cup.security.certification.RsaCertUtils:103-getPriKeyPkcs12  Fail: get private key from private certificate
+java.lang.NullPointerException
+	at com.cup.security.certification.RsaCertUtils.getPriKeyPkcs12(RsaCertUtils.java:95)
+	at cardlessQuickPay.CardlessQuickPayRSATest.testSm2SignWithSm3(CardlessQuickPayRSATest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2017-11-10 17:04:21-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 308204be020100300d06092a864886f70d0101010500048204a8308204a40201000282010100dc8228f636615b7ed6381aa2a4b7d6cdd4dfdb44d300e5a56b2e99806fc70533944ac3547d791f1bba0ef1f830e36e0e15d66b43775608df9c1a518537f593929fffe37ddbd73ec3b3348d5fced13150013685f76d7d7e3354ea6b24646069617160751f38785b72553d88190c204aa6c5eb3b70d2b6aa45fe62b43f32a2323cfceda3541c7a00e08917b2af1aad26a8048d5a550a7f0ac71dfd568b8000a7fcfad7510ca742dd018938522175b1caa773d519113ed2658b85727bd7f5b739f867b8c2c30b14302d5394a05e17d47cab157f7bd7d74021d478f89a248b3cf3bfa5bbd62e9d7ca67a91ef1e10c7b0ca08186b23cd95072f1eb0c9d5f444c0b4750203010001028201002d0f2befa40d20f53a311cc03f88918c5e03a07adfe33f0a1e6cd751378623b9f6839086a35d2cce2da7002b0752721acebb920fa7431d6d14290c9f7c5fe25803f9f632b1c9ba39a35509ce9a24853f2400503fcf4fe589f7c02f44b07e430a76708f7e61bbb67416970c489201c73f6d123483498baa1fc36bc80961ff62e45270e0e2ecad9eb42707199c4a3a5ee23727307c2cd0345d9c87946a828cdbaefbfe9522e9750d4a70b5d72006d354496290fc61e597a75eac919ae7e9ec1788dc21a48ce0bb71184d6aadd8691297a43967002eccf994678d789eb383f4392978bde1a65e50dfcace76fd85e40c6017be3f720c13abc866fffd704e1d5931c102818100ed7cc30867d7a158742b9b317d44185cbb0eddf413547920ecad801337c3544d9c3df02e2a1328a50b3ec25a72082a8633198c6328e8983ccdfd4579356e5d3d8ce59e6da75ed43cd9943a668a10e1c835eb2db38f5bd8f8efa985efad777c862e407a4476264b85229b1d9e49cbcf9aeef43d6f6bc57c831eac45dcbc15f6df02818100edb2923aee1fdc97921b7ca9e3ef75205a22e3b174f10bba0e5862348e23ab3d239da38449f4d9fdb72a0aecac6e13ce3c409dc0b478150ff0f3ffbf00be484bc27626326bceb5c9f7a69156d91989527d7dcb6e5a1531e597fc924ad6486d2ce3eb68ade6a9e3c215adb198b18a5dc01487690d9cb8236a2af52f389c68632b02818100a72a61d261ddeb896ac4630a53e581cc8c332bd2a964959ab25e723f94c9de667eeb2e4c207bb9e96adff3485cea189cbc0d68bf47c5699bab5772f69dc0a0cb39894b9a5deca73269e927ae93d2cc4af481257b3616edc454569c9b981bfa402d005fd01ee657d45006a5b38cb874dad7067ed416253dbec1f17b7fa3b9463b028181008d410b495ded2d481d999c11d1d4a184224c8d870d7999806db9f4524b0dc35b47e90c1d375dfc959bddae344b9bf6c51e653fda1ee5258f1d9fc2a19d2d77051e80dbde26d6e68d2950a11a3d55c19775dfe59ea485e7eb0ad11b96c194b4dc726d98fd8f0ff2bb89ea7899c717f4f28ac0959b7340b23b0b603d39a5291b9502818034d2c34d6ecdb091625c167b187695eecb2ff594ad2ef395fd57a50b9af8254d03292547b67bfb3ed45a118c550e83c740c1c4fce6ac13de7456efba1157aa407745ffbbf5437fa07bb850c6cb14087907d0b9cd4e73ec0015182e97ee308660a19541e10ac1743e1118c77512dc7790f43c7dbed3c3f7daa6c960dc81021e29
+2017-11-10 17:04:21- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T17:04:21.595</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 17:04:21-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: ec11ea0c313da1477b113a97e05e1480a37ca7c5d65f02e3cae5a3d1420d5af0
+2017-11-10 17:04:21-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: bebb4476ef9ddaf35469c2ce39a4fc1a1135c3bb90c3170059bf3bb4ee68bdd2789dde7efcb80f4c65a8b6a1b26e3416fa7738fb8683f8f7469942cc518454e1824e8adee8ecdf38c731e02234c0438f4248a24fc98779d5623af578e6438e3685b99f295e98995d9df0b33d0c3acbc6a85af622e795b581f8109e1162b3466cbcccac1d37c7e98411502f7b98d28df833d93bd421ee1cf56cb3c1f4fce00521eb2325a65d704edc95886f36a285acac55719cf0f7932dcd90adb44de021376593353422c903fdd258f17dfd2bf2f26c5253607ef6540c4888086ea8a876f1bace755ee4b9a1e1507b6309248d142b112659f6fee7c64a2c17ad380db94502e4
+2017-11-10 17:04:21-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:vrtEdu+d2vNUacLOOaT8GhE1w7uQwxcAWb87tO5ovdJ4nd5+/LgPTGWotqGybjQW+nc4+4aD+PdG
+mULMUYRU4YJOit7o7N84xzHgIjTAQ49CSKJPyYd51WI69XjmQ442hbmfKV6YmV2d8LM9DDrLxqha
+9iLnlbWB+BCeEWKzRmy8zKwdN8fphBFQL3uY0o34M9k71CHuHPVss8H0/OAFIesjJaZdcE7clYhv
+NqKFrKxVcZzw95MtzZCttE3gITdlkzU0IskD/dJY8X39K/LybFJTYH72VAxIiAhuqKh28brOdV7k
+uaHhUHtjCSSNFCsRJln2/ufGSiwXrTgNuUUC5A==
+
+2017-11-10 17:04:21- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:vrtEdu+d2vNUacLOOaT8GhE1w7uQwxcAWb87tO5ovdJ4nd5+/LgPTGWotqGybjQW+nc4+4aD+PdG
+mULMUYRU4YJOit7o7N84xzHgIjTAQ49CSKJPyYd51WI69XjmQ442hbmfKV6YmV2d8LM9DDrLxqha
+9iLnlbWB+BCeEWKzRmy8zKwdN8fphBFQL3uY0o34M9k71CHuHPVss8H0/OAFIesjJaZdcE7clYhv
+NqKFrKxVcZzw95MtzZCttE3gITdlkzU0IskD/dJY8X39K/LybFJTYH72VAxIiAhuqKh28brOdV7k
+uaHhUHtjCSSNFCsRJln2/ufGSiwXrTgNuUUC5A==
+
+2017-11-10 17:04:21- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T17:04:21.595</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:vrtEdu+d2vNUacLOOaT8GhE1w7uQwxcAWb87tO5ovdJ4nd5+/LgPTGWotqGybjQW+nc4+4aD+PdG
+mULMUYRU4YJOit7o7N84xzHgIjTAQ49CSKJPyYd51WI69XjmQ442hbmfKV6YmV2d8LM9DDrLxqha
+9iLnlbWB+BCeEWKzRmy8zKwdN8fphBFQL3uY0o34M9k71CHuHPVss8H0/OAFIesjJaZdcE7clYhv
+NqKFrKxVcZzw95MtzZCttE3gITdlkzU0IskD/dJY8X39K/LybFJTYH72VAxIiAhuqKh28brOdV7k
+uaHhUHtjCSSNFCsRJln2/ufGSiwXrTgNuUUC5A==
+}
+2017-11-10 17:06:22-DEBUG com.cup.security.certification.RsaCertUtils:105-getPriKeyPkcs12  private key: 308204be020100300d06092a864886f70d0101010500048204a8308204a40201000282010100dc8228f636615b7ed6381aa2a4b7d6cdd4dfdb44d300e5a56b2e99806fc70533944ac3547d791f1bba0ef1f830e36e0e15d66b43775608df9c1a518537f593929fffe37ddbd73ec3b3348d5fced13150013685f76d7d7e3354ea6b24646069617160751f38785b72553d88190c204aa6c5eb3b70d2b6aa45fe62b43f32a2323cfceda3541c7a00e08917b2af1aad26a8048d5a550a7f0ac71dfd568b8000a7fcfad7510ca742dd018938522175b1caa773d519113ed2658b85727bd7f5b739f867b8c2c30b14302d5394a05e17d47cab157f7bd7d74021d478f89a248b3cf3bfa5bbd62e9d7ca67a91ef1e10c7b0ca08186b23cd95072f1eb0c9d5f444c0b4750203010001028201002d0f2befa40d20f53a311cc03f88918c5e03a07adfe33f0a1e6cd751378623b9f6839086a35d2cce2da7002b0752721acebb920fa7431d6d14290c9f7c5fe25803f9f632b1c9ba39a35509ce9a24853f2400503fcf4fe589f7c02f44b07e430a76708f7e61bbb67416970c489201c73f6d123483498baa1fc36bc80961ff62e45270e0e2ecad9eb42707199c4a3a5ee23727307c2cd0345d9c87946a828cdbaefbfe9522e9750d4a70b5d72006d354496290fc61e597a75eac919ae7e9ec1788dc21a48ce0bb71184d6aadd8691297a43967002eccf994678d789eb383f4392978bde1a65e50dfcace76fd85e40c6017be3f720c13abc866fffd704e1d5931c102818100ed7cc30867d7a158742b9b317d44185cbb0eddf413547920ecad801337c3544d9c3df02e2a1328a50b3ec25a72082a8633198c6328e8983ccdfd4579356e5d3d8ce59e6da75ed43cd9943a668a10e1c835eb2db38f5bd8f8efa985efad777c862e407a4476264b85229b1d9e49cbcf9aeef43d6f6bc57c831eac45dcbc15f6df02818100edb2923aee1fdc97921b7ca9e3ef75205a22e3b174f10bba0e5862348e23ab3d239da38449f4d9fdb72a0aecac6e13ce3c409dc0b478150ff0f3ffbf00be484bc27626326bceb5c9f7a69156d91989527d7dcb6e5a1531e597fc924ad6486d2ce3eb68ade6a9e3c215adb198b18a5dc01487690d9cb8236a2af52f389c68632b02818100a72a61d261ddeb896ac4630a53e581cc8c332bd2a964959ab25e723f94c9de667eeb2e4c207bb9e96adff3485cea189cbc0d68bf47c5699bab5772f69dc0a0cb39894b9a5deca73269e927ae93d2cc4af481257b3616edc454569c9b981bfa402d005fd01ee657d45006a5b38cb874dad7067ed416253dbec1f17b7fa3b9463b028181008d410b495ded2d481d999c11d1d4a184224c8d870d7999806db9f4524b0dc35b47e90c1d375dfc959bddae344b9bf6c51e653fda1ee5258f1d9fc2a19d2d77051e80dbde26d6e68d2950a11a3d55c19775dfe59ea485e7eb0ad11b96c194b4dc726d98fd8f0ff2bb89ea7899c717f4f28ac0959b7340b23b0b603d39a5291b9502818034d2c34d6ecdb091625c167b187695eecb2ff594ad2ef395fd57a50b9af8254d03292547b67bfb3ed45a118c550e83c740c1c4fce6ac13de7456efba1157aa407745ffbbf5437fa07bb850c6cb14087907d0b9cd4e73ec0015182e97ee308660a19541e10ac1743e1118c77512dc7790f43c7dbed3c3f7daa6c960dc81021e29
+2017-11-10 17:06:22- INFO cardlessQuickPay.CardlessQuickPayRSATest:120-testSm2SignWithSm3  document.asXML:<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T17:06:22.688</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>
+2017-11-10 17:06:22-DEBUG com.cup.security.cupsec.CupSec:180-rsaSignWithSha256  digest: c800072a72e68387e38af0dc5bc11d30f9c4771e4333c4ef9b52897064fbf363
+2017-11-10 17:06:22-DEBUG com.cup.security.cupsec.CupSec:182-rsaSignWithSha256  sign: 6f6ede2fab5548cf85319f5b8054c3cdb71d1cd6de41e568ba7ae820521310dc9e80e64bd4ad3c4a04fb213bd6a52a48cdccbf9d1e25d6f6fd0b7e10551a4fb43323e18a14403c775ede378bc353469fe839790e20a87c84e3709bca252a573d4a9267eae0dd9c1138fc959b9adfe2bb30559407aae3f63de7dc7dbf3252317aa43aab9d34107abb79406279552f6933b1ca0d612ea6fc84c02a178fae0ae6a877694e829c8f61d086ad2d01c7125d1454f1a22f0e3ccf277800f7a986dd6752a635d87719068c9027c21e705ea7bdf27250384b4e052abc0d181d3b03b5f827edbf03ba8bb6fb116254341748049f1642f70b58a984bf94e1abc29448e79698
+2017-11-10 17:06:22-DEBUG com.cup.security.cupsec.CupSec:184-rsaSignWithSha256  base64:b27eL6tVSM+FMZ9bgFTDzbcdHNbeQeVounroIFITENyegOZL1K08SgT7ITvWpSpIzcy/nR4l1vb9
+C34QVRpPtDMj4YoUQDx3Xt43i8NTRp/oOXkOIKh8hONwm8olKlc9SpJn6uDdnBE4/JWbmt/iuzBV
+lAeq4/Y959x9vzJSMXqkOqudNBB6u3lAYnlVL2kzscoNYS6m/ITAKhePrgrmqHdpToKcj2HQhq0t
+AccSXRRU8aIvDjzPJ3gA96mG3WdSpjXYdxkGjJAnwh5wXqe98nJQOEtOBSq8DRgdOwO1+CftvwO6
+i7b7EWJUNBdIBJ8WQvcLWKmEv5Thq8KUSOeWmA==
+
+2017-11-10 17:06:22- INFO cardlessQuickPay.CardlessQuickPayRSATest:124-testSm2SignWithSm3  sign:b27eL6tVSM+FMZ9bgFTDzbcdHNbeQeVounroIFITENyegOZL1K08SgT7ITvWpSpIzcy/nR4l1vb9
+C34QVRpPtDMj4YoUQDx3Xt43i8NTRp/oOXkOIKh8hONwm8olKlc9SpJn6uDdnBE4/JWbmt/iuzBV
+lAeq4/Y959x9vzJSMXqkOqudNBB6u3lAYnlVL2kzscoNYS6m/ITAKhePrgrmqHdpToKcj2HQhq0t
+AccSXRRU8aIvDjzPJ3gA96mG3WdSpjXYdxkGjJAnwh5wXqe98nJQOEtOBSq8DRgdOwO1+CftvwO6
+i7b7EWJUNBdIBJ8WQvcLWKmEv5Thq8KUSOeWmA==
+
+2017-11-10 17:06:22- INFO cardlessQuickPay.CardlessQuickPayRSATest:142-testSm2SignWithSm3  xmlsum:<?xml version="1.0" encoding="utf-8"?>
+<root><MsgHeader><MsgVer>1000</MsgVer><Trxtyp>0001</Trxtyp><Drctn>11</Drctn><SndDt>2017-11-10T17:06:22.688</SndDt><IssrId>49360000</IssrId><SignEncAlgo>0</SignEncAlgo><SignSN>4000370700</SignSN><MDAlgo>0</MDAlgo><EncKey>1234567890ABCDEF1234567890ABCDEF</EncKey><EncSN>4000370687</EncSN><EncAlgo>0</EncAlgo></MsgHeader></root>{S:b27eL6tVSM+FMZ9bgFTDzbcdHNbeQeVounroIFITENyegOZL1K08SgT7ITvWpSpIzcy/nR4l1vb9
+C34QVRpPtDMj4YoUQDx3Xt43i8NTRp/oOXkOIKh8hONwm8olKlc9SpJn6uDdnBE4/JWbmt/iuzBV
+lAeq4/Y959x9vzJSMXqkOqudNBB6u3lAYnlVL2kzscoNYS6m/ITAKhePrgrmqHdpToKcj2HQhq0t
+AccSXRRU8aIvDjzPJ3gA96mG3WdSpjXYdxkGjJAnwh5wXqe98nJQOEtOBSq8DRgdOwO1+CftvwO6
+i7b7EWJUNBdIBJ8WQvcLWKmEv5Thq8KUSOeWmA==
+}

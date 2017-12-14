@@ -1,0 +1,10 @@
+2017-11-09 16:11:03- INFO com.cup.security.cupsec.CupSecTest:408-testRsaSign  sign:kU1SRKzUqpUf2K2X9C7awGgVkgHaUBP/dlQnzQ0hlGa8qAF6mqh3B5keYWqqCol9rWZ2bS8Gu/sV
+F19zcQAq856L071MM0VkRoMiggGjXc43uc1KC/EtDFo1emJoA/U2TWshDD5OvhHBOVeebXZlvCBD
+6CnMkTZTaJw1a+oOy30=
+
+2017-11-09 17:31:53- INFO cardlessQuickPay.CardlessQuickPayTest:55-testSm2SignWithSm3  sign:yZzjNnO5LhFeJI218BSGIbou5eiftzclxdUBkcHQmGIbR7yB3kkzSjS/xaDYiZ3FsIerPPuSk/iB
+O4gOxM3FLw==
+
+2017-11-09 17:32:19- INFO cardlessQuickPay.CardlessQuickPayTest:57-testSm2SignWithSm3  sign:fuEpBAzEAMiaYse/DCkXfpIONVyC1Cj+de1vKmWNIKo47dc2IDQWY7JKnpLsafka0LdNsFi9S2en
+trtD3QCcAQ==
+
